@@ -51,7 +51,7 @@ namespace Lab3_OOP
         {
             bool flag = true;
 
-            _myMatrix = new double[myMatrix.Length, myMatrix.Length];
+            _myMatrix = new double[myMatrix.Length, myMatrix[0].Length];
 
             for (int i = 0; i < myMatrix.Length; i++)
             {
